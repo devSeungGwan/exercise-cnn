@@ -32,10 +32,5 @@ model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accurac
 
 history = model.fit(X_train, y_train, batch_size=50, validation_split=0.2, epochs=100, verbose=0)
 
-# plt.plot(history.history['acc'])
-# plt.plot(history.history['val_acc'])
-# plt.legend(['training', 'validation'], loc = 'upper left')
-# plt.show()
-
 results = model.evaluate(X_test, y_test)
 print('Test Accuracy: ', results[1])
