@@ -8,8 +8,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 cifar_mnist = datasets.cifar10
+fashion_mnist = datasets.fashion_mnist
 
 (x_train, y_train), (x_test, y_test) = cifar_mnist.load_data()
+
+print(x_train.shape, y_train.shape)
 
 # Data Labeling
 class_names = [
@@ -26,15 +29,15 @@ class_names = [
 ]
 
 # data visualization
-# plt.figure(figsize=(10, 10))
-# for i in range(25):
-#     plt.subplot(5, 5, i+1)
-#     plt.xticks([])
-#     plt.yticks([])
-#     plt.grid(False)
-#     plt.imshow(x_train[i], cmap=plt.cm.binary)
-#     plt.xlabel(class_names[y_train[i][0]])
-# plt.show()
+plt.figure(figsize=(10, 10))
+for i in range(25):
+    plt.subplot(5, 5, i+1)
+    plt.xticks([])
+    plt.yticks([])
+    plt.grid(False)
+    plt.imshow(x_train[i], cmap=plt.cm.binary)
+    plt.xlabel(class_names[y_train[i][0]])
+plt.show()
 
 #Hyper Parameters & Preprocessing
 batch_size = 64
@@ -106,7 +109,7 @@ def CNN_model(x_train, y_train, x_test, y_test):
 
     loss, acc = model.evaluate(x_test, y_test)
     predictions = model.predict(x_test)
-    
+
 
 
     print("\nLoss: {}, Acc: {}".format(loss, acc))
