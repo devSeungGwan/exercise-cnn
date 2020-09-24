@@ -1,5 +1,6 @@
 {
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "C:\\Users\\TIM\\anaconda3\\envs\\my_env\\python.exe"
+    "python.pythonPath": "/home/tim/.pyenv/versions/torchEnv/bin/python",
+    "python.dataScience.jupyterServerURI": "local"
 }
