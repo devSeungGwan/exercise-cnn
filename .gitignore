@@ -1,2 +1,6 @@
 data
 *.pth
+event*
+*.pbtxt
+*.tsv
+*.png
