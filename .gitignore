@@ -6,3 +6,7 @@ event*
 *.png
 *.pt
 *-ubyte
+*.png
+*.jpg
+*.jpeg
+*.gif
