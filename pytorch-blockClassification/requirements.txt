@@ -33,7 +33,7 @@ Keras==2.4.3
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
-Markdown==3.2.2
+Markdown==3.3.4
 matplotlib==3.3.2
 mccabe==0.6.1
 numpy==1.18.5
