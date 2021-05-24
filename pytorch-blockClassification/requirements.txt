@@ -9,7 +9,7 @@ chardet==3.0.4
 cmake==3.18.2.post1
 cmaker==0.0.6
 cycler==0.10.0
-Cython==0.29.21
+Cython==0.29.23
 decorator==4.4.2
 flake8==3.8.3
 future==0.18.2
