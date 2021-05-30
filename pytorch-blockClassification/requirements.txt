@@ -11,7 +11,7 @@ cmaker==0.0.6
 cycler==0.10.0
 Cython==0.29.23
 decorator==4.4.2
-flake8==3.8.3
+flake8==3.9.2
 future==0.18.2
 gast==0.3.3
 google-auth==1.21.2
