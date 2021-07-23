@@ -13,7 +13,7 @@ Cython==0.29.23
 decorator==4.4.2
 flake8==3.8.3
 future==0.18.2
-gast==0.3.3
+gast==0.5.1
 google-auth==1.21.2
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
